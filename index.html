@@ -157,10 +157,24 @@
            margin: 20px 50px ; 
            background-color: rgb(13, 75, 54);
            border-radius: 10px;
-           font-family: 'Big';
-           
-           
-     }
+           font-family: 'Big'; 
+           animation: blinkingBackground 5s infinite;    
+  
+     } 
+        /* .card a{
+		color: #fff;
+		padding: 10px;
+		display: inline-block;
+		border-radius: 5px;
+		animation: blinkingBackground 2s infinite;
+	} */
+	@keyframes blinkingBackground{
+		0%		{ background-color: #10c018;}
+		25%		{ background-color: #10c082;}
+		50%		{ background-color: #7eefc0;}
+		75%		{ background-color: #046936;}
+		100%	        { background-color: #04d566;}
+	}
      .card a:hover{
         color:red;
         font-size: 30px;
