@@ -158,7 +158,9 @@
            background-color: rgb(13, 75, 54);
            border-radius: 10px;
            font-family: 'Big'; 
-           animation: blinkingBackground 5s infinite;    
+           animation: blinkingBackground 5s infinite; 
+          
+            
   
      } 
         /* .card a{
@@ -177,20 +179,30 @@
 	}
      .card a:hover{
         color:red;
-        font-size: 30px;
+        font-size: 20px;
         background:rgba(161, 237, 161, 0.4);
      }
      .footer{
         font-family: 'Devanagari';
-        color: green;
+        
       margin-left: 10px;
-        font-weight: bolder;
+        font-weight: lighter;
+        /* color: color-contrast(#000 vs #fff, #f00, ); */
+       
        
         }
         .footer {
             position: sticky;
             position: -webkit-sticky;
-            margin-bottom: 0;
+             bottom: 5px;
+             text-align: center; 
+             color: green; 
+        }
+        .footer :hover{
+            
+            color: white; 
+            text-align: left;
+            mix-blend-mode: difference
         }
 
         #myBtn {
@@ -266,7 +278,7 @@
        </script> 
         <div class="header">
             <p style="text-align: center;font-size:5vw;margin:30px;color: green;font-family:'Big';"> The Byron Orginzaition</p>
-         <p style="text-align: center;font-size:3vw;color: green;font-family:'centaur';">Moving forward, we continue to explore.</p>
+         <p style="text-align: center;font-size:3vw;color: green;font-family:'centaur';font-weight: lighter;">&#9886; Moving forward, we continue to explore. &#9887;</p>
         </div>
         
 
@@ -285,13 +297,15 @@
                     <h1 style="font-family:'Centaur';font-weight: lighter;" ><span style="font-family:BLlogo ;color: rgb(19, 171, 19);">b</span >&#160;Byron & Co.</h1>
                     <p style="font-family:'Centaur';font-weight: lighter;font-size:20px;"> Byron & Co. is committed to providing a high-quality professional Handyman Service, to the total satisfaction of its customers. Our aim is to develop a quality finish within budget and time scale, to the total satisfaction of all parties. The company will continue to train and develop employees to maximise their potential and their value to the company, producing multi-skilled and flexible employees.
                         Through mutual respect and confident teamwork ability our aim is to exceed our customer’s expectations.                   </p>
+                        <br>
                         <a href="https://byronlok.com" target="_blank">Know More About US...</a>
                 </div>
                 <div class="card">
                     <div class="card-image pic3"></div>
                     <h1 style="font-family:Albertus;">Byr <span style="font-family: BLlogo;color:rgb(19, 171, 19);font-size: 25px;">b</span> n Health</h1>
-                    <marquee behavior="" direction="up" scrollamount="3"><p style="font-size: 25px;font-family:Albertus;">Byron Health informs you that due to the unstable economic environment, we temporarily closed. Soon, we hope to see you! <Br> LOVE YOU
-                        <br> <br >ALL OTHER BUSINESS, AS USUAL.   </p>
+                    <marquee behavior="" direction="up" scrollamount="3" OnMouseOver="this.stop()"
+                    OnMouseOut="this.start()"><p style="font-size: 25px;font-family:Albertus;">Byron Health informs you that due to the unstable economic environment, we temporarily closed. Soon, we hope to see you! <Br> LOVE YOU
+                        <br> <br >ALL OTHER BUSINESS,<br> AS USUAL.   </p>
                     </marquee>
                 </div>    
                         
