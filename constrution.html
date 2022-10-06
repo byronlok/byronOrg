@@ -50,13 +50,19 @@
       text-align: center;
       font-weight: lighter;
     }
-    marquee {
-      margin: 100px 300px;
+
+    audio {
+      display: none;
     }
   </style>
   <body>
-    <marquee behavior="" direction="" scroolamount="">
-      <div class="container">Under Construction</div>
+    <marquee behavior="" direction="up" scroolamount="">
+      <div class="container">Under Construction Coming Soon</div>
     </marquee>
+    <audio controls autoplay loop>
+      <source src="BSpic/LionRock.mp3" type="audio/ogg" />
+      <source src="BSpic/LionRock.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
   </body>
 </html>
