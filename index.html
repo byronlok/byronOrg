@@ -1,322 +1,409 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="The Byron Organization is constantly seeking for fresh approaches to provide for our customers. Visit us by clicking here.">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="The Byron Organization is constantly seeking for fresh approaches to provide for our customers. Visit us by clicking here."
+    />
     <title>Our Orginzaition</title>
-    <link rel="shortcut icon" href="BSpic/logo.png" type="image/x-icon">
-</head>
-<style>
+    <link rel="shortcut icon" href="BSpic/logo.png" type="image/x-icon" />
+  </head>
+  <style>
+    * {
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+    }
 
-   *{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-   }
+    body {
+      background-image: url(BSpic/hksmall.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed;
+      font-family: "chpan";
+    }
 
-   body{
-    background-image: url(BSpic/hksmall.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    font-family:'chpan' ;
-   }
+    @font-face {
+      font-family: "Centaur";
+      src: url("fonts/Centaur.eot");
+      src: url("fonts/Centaur.eot?#iefix") format("embedded-opentype"),
+        url("fonts/Centaur.woff2") format("woff2"),
+        url("fonts/Centaur.woff") format("woff"),
+        url("fonts/Centaur.ttf") format("truetype");
+      font-weight: normal;
+      font-style: normal;
+      font-display: swap;
+    }
 
-   @font-face {
-    font-family: 'Centaur';
-    src: url('fonts/Centaur.eot');
-    src: url('fonts/Centaur.eot?#iefix') format('embedded-opentype'),
-        url('fonts/Centaur.woff2') format('woff2'),
-        url('fonts/Centaur.woff') format('woff'),
-        url('fonts/Centaur.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
+    @font-face {
+      font-family: "Albertus";
+      src: url("fonts/Albertus.eot");
+      src: url("fonts/Albertus.eot?#iefix") format("embedded-opentype"),
+        url("fonts/Albertus.woff2") format("woff2"),
+        url("fonts/Albertus.woff") format("woff"),
+        url("fonts/Albertus.ttf") format("truetype");
+      font-weight: normal;
+      font-style: normal;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: "Devanagari";
+      src: url("fonts/Devanagari-Regular.eot");
+      src: url("fonts/Devanagari-Regular.eot?#iefix")
+          format("embedded-opentype"),
+        url("fonts/Devanagari-Regular.woff2") format("woff2"),
+        url("fonts/Devanagari-Regular.woff") format("woff"),
+        url("fonts/Devanagari-Regular.ttf") format("truetype");
+      font-weight: normal;
+      font-style: normal;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: BLlogo;
+      src: url("fonts/BLlogo.eot?#iefix") format("embedded-opentype"),
+        url("fonts/BLlogo.woff2") format("woff2"),
+        url("fonts/CustomFont.woff") format("woff"),
+        url("fonts/BLlogo.ttf") format("truetype"),
+        url("fonts/BLlogo.svg#BLlogo") format("svg");
+      font-weight: normal;
+      font-style: normal;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: "Big";
+      src: url("fonts/Big.eot");
+      src: url("Big.eot?#iefix") format("embedded-opentype"),
+        url("fonts/Big.woff2") format("woff2"),
+        url("fonts/Big.woff") format("woff"),
+        url("fonts/Big.ttf") format("truetype");
+      font-weight: normal;
+      font-style: normal;
+      font-display: swap;
+    }
+    .header {
+      line-height: 2vw;
+      margin: 40px 50px;
+    }
 
+    .container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 0;
+      margin-top: 10px;
+    }
 
-   @font-face {
-    font-family: 'Albertus';
-    src: url('fonts/Albertus.eot');
-    src: url('fonts/Albertus.eot?#iefix') format('embedded-opentype'),
-        url('fonts/Albertus.woff2') format('woff2'),
-        url('fonts/Albertus.woff') format('woff'),
-        url('fonts/Albertus.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-   @font-face {
-    font-family: 'Devanagari';
-    src: url('fonts/Devanagari-Regular.eot');
-    src: url('fonts/Devanagari-Regular.eot?#iefix') format('embedded-opentype'),
-        url('fonts/Devanagari-Regular.woff2') format('woff2'),
-        url('fonts/Devanagari-Regular.woff') format('woff'),
-        url('fonts/Devanagari-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-} 
-@font-face {
-  font-family: BLlogo;
-  src: url('fonts/BLlogo.eot?#iefix') format('embedded-opentype'),
-  url('fonts/BLlogo.woff2') format('woff2'),
-  url('fonts/CustomFont.woff') format('woff'),
-  url('fonts/BLlogo.ttf') format('truetype'),
-  url('fonts/BLlogo.svg#BLlogo') format('svg');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-    font-family: 'Big';
-    src: url('fonts/Big.eot');
-    src: url('Big.eot?#iefix') format('embedded-opentype'),
-        url('fonts/Big.woff2') format('woff2'),
-        url('fonts/Big.woff') format('woff'),
-        url('fonts/Big.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-.header{
-    line-height: 2vw;
-    margin:40px 50px ;
-}
+    .card {
+      background: rgba(0, 128, 0, 0.8);
+      width: 400px;
+      height: 600px;
+      margin: 10px;
+      border-radius: 10px;
+      font-family: Adobe Devanagari;
+      box-shadow: 10px 10px 10px gray;
+    }
+    .card-image {
+      background: red;
+      height: 170px;
+      margin-bottom: 20px;
+      background-size: cover;
+      border-radius: 10px 10px 0px 0px;
+    }
 
-   .container{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 0;
-    margin-top: 10px;
+    .pic1 {
+      background-image: url(BSpic/BS2.png);
+    }
+    .pic2 {
+      background-image: url(BSpic/byron&co.png);
+    }
+    .pic3 {
+      background-image: url(BSpic/byronhealthS.png);
+    }
+    .card:hover {
+      background-color: green;
+      cursor: zoom-in;
+      transform: scale(1.1);
+      transition: all 1s ease;
+    }
+    .card p {
+      padding: 10px;
+      text-align: center;
+      color: white;
+    }
+    h1 :hover {
+      color: lightgreen;
+    }
+    h1 {
+      text-align: center;
+      color: white;
+    }
 
-   }
-
-   .card{
-    background:rgba(0,128,0,.80);
-    width: 400px;
-    height: 600px;
-    margin:10px;
-    border-radius: 10px ;
-    font-family: Adobe Devanagari;
-    box-shadow: 10px 10px 10px gray;
-    
-   }
-   .card-image{
-    background: red; 
-    height: 170px;
-    margin-bottom: 20px;
-    background-size: cover; 
-    border-radius: 10px 10px 0px 0px;
-   
-    
-   }
-
-   .pic1{
-    background-image: url(BSpic/BS2.png);
-    
-   }
-   .pic2{
-    background-image: url(BSpic/byron&co.png);
-  
-    
-   }
-   .pic3{
-    background-image: url(BSpic/byronhealthS.png);  
-}
-.card:hover{
-            background-color: green;
-            cursor:zoom-in;
-            transform: scale(1.100);
-            transition: all 1s ease;
-        }
-        .card p{
-         padding: 10px;
-         text-align: center;  
-         color:white;
-         }
-         h1 :hover{
-            
-           color:lightgreen;
-
-         }
-     h1{
-        text-align: center;
-        color: white;       
-     }
-    
-     .card a{
-        color: white;
-            padding: 10px 20px;
-           display: block;
-           text-align: center;
-           text-decoration: none;
-           margin: 10px 50px ; 
-           background-color: rgb(13, 75, 54);
-           border-radius: 10px;
-           font-family: 'Big'; 
-           animation: blinkingBackground 5s infinite; 
-          
-            
-  
-     } 
-        /* .card a{
+    .card a {
+      color: white;
+      padding: 10px 20px;
+      display: block;
+      text-align: center;
+      text-decoration: none;
+      margin: 10px 50px;
+      background-color: rgb(13, 75, 54);
+      border-radius: 10px;
+      font-family: "Big";
+      animation: blinkingBackground 5s infinite;
+    }
+    /* .card a{
 		color: #fff;
 		padding: 10px;
 		display: inline-block;
 		border-radius: 5px;
 		animation: blinkingBackground 2s infinite;
 	} */
-	@keyframes blinkingBackground{
-		0%		{ background-color: #10c018;}
-		25%		{ background-color: #10c082;}
-		50%		{ background-color: #7eefc0;}
-		75%		{ background-color: #046936;}
-		100%	        { background-color: #04d566;}
-	}
-     .card a:hover{
-        color:red;
-        font-size: 20px;
-        background:rgba(161, 237, 161, 0.4);
-     }
-     .footer{
-        font-family: 'Devanagari';
-        
+    @keyframes blinkingBackground {
+      0% {
+        background-color: #10c018;
+      }
+      25% {
+        background-color: #10c082;
+      }
+      50% {
+        background-color: #7eefc0;
+      }
+      75% {
+        background-color: #046936;
+      }
+      100% {
+        background-color: #04d566;
+      }
+    }
+    .card a:hover {
+      color: red;
+      font-size: 20px;
+      background: rgba(161, 237, 161, 0.4);
+    }
+    .footer {
+      font-family: "Devanagari";
+
       margin-left: 10px;
-        font-weight: lighter;
-        /* color: color-contrast(#000 vs #fff, #f00, ); */
-       
-       
-        }
-        .footer {
-            position: sticky;
-            position: -webkit-sticky;
-             bottom: 5px;
-             text-align: center; 
-             color: green; 
-        }
-        .footer :hover{
-            
-            color: white; 
-            /* text-align: left; */
-            mix-blend-mode: difference
-        }
+      font-weight: lighter;
+      /* color: color-contrast(#000 vs #fff, #f00, ); */
+    }
+    .footer {
+      position: sticky;
+      position: -webkit-sticky;
+      bottom: 5px;
+      text-align: center;
+      color: green;
+    }
+    .footer :hover {
+      color: white;
+      /* text-align: left; */
+      mix-blend-mode: difference;
+    }
 
-        #myBtn {
-            display: none;
-            position: fixed;
-            bottom: 80px;
-            right: 10px;
-            z-index: 99;
-            font-size: 10px;
-            border: none;
-            outline: none;
-            background-color: #105e0c;
-            color: white;
-            cursor: pointer;
-            padding: 10px;
-            border-radius: 200px;
-        }
+    #myBtn {
+      display: none;
+      position: fixed;
+      bottom: 80px;
+      right: 10px;
+      z-index: 99;
+      font-size: 10px;
+      border: none;
+      outline: none;
+      background-color: #105e0c;
+      color: white;
+      cursor: pointer;
+      padding: 10px;
+      border-radius: 200px;
+    }
 
-        #myBtn:hover {
-            background-color:greenyellow;
-          
-        }
-     
-</style>
+    #myBtn:hover {
+      background-color: greenyellow;
+    }
+  </style>
 
-
-
-
-
-<body>
-      <!-- go top button -->
-      <button onclick="topFunction()" id="myBtn" title="Go to top">&#9757;Go&#160;top</button>
-      <script>
-              //Get the button
-              var mybutton = document.getElementById("myBtn");
-  
-              // When the user scrolls down 20px from the top of the document, show the button
-              window.onscroll = function () { scrollFunction() };
-  
-              function scrollFunction() {
-                  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                      mybutton.style.display = "block";
-                  } else {
-                      mybutton.style.display = "none";
-                  }
-              }
-  
-              // When the user clicks on the button, scroll to the top of the document
-              function topFunction() {
-                  document.body.scrollTop = 0;
-                  document.documentElement.scrollTop = 0;
-              }
-          </script>
-    <SCRIPT LANGUAGE="JavaScript">
-        var message="NO RIGHT CLICK AVAILABLE ." 
-        ///////////////////////////////////
-        function clickIE() {if (document.all) {alert(message);return false;}}
-        function clickNS(e) {if 
-        (document.layers||(document.getElementById&&!document.all)) {
-        if (e.which==2||e.which==3) {alert(message);return false;}}}
-        if (document.layers) 
-        {document.captureEvents(Event.MOUSEDOWN);document.onmousedown=clickNS;}
-        else{document.onmouseup=clickNS;document.oncontextmenu=clickIE;}
-        
-        document.oncontextmenu=new Function("return false")
-        // --> 
-        </script>
-    
+  <body>
+    <!-- go top button -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+      &#9757;Go&#160;top
+    </button>
     <script>
-    document.onkeydown = function (e) {
-    return false;
+      //Get the button
+      var mybutton = document.getElementById("myBtn");
+
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20
+        ) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
         }
-       </script> 
-        <div class="header">
-            <p style="text-align: center;font-size:5vw;margin:30px;color: green;font-family:'Big';"> The Byron Orginzaition</p>
-         <p style="text-align: center;font-size:3vw;color: green;font-family:'centaur';font-weight: lighter;">&#9886; Moving forward, we continue to explore. &#9887;</p>
-        </div>
-        
+      }
 
-         
-    
-        <div class="container">
-             
-                <div class="card">
-                    <div class="card-image pic1"></div>
-                    <h1 style="font-family:Devanagari ;font-weight: lighter;letter-spacing: 2px;" >Byron <span style="font-family:BLlogo;color: rgb(19, 171, 19);">b</span> Screen</h1>
-                    <p style="font-family:Devanagari ;font-weight: lighter; font-size: 20px;" >We're patient and humble-driven.<br>Not like others......; &#160;&#160;Your valuable ideas for us are critical to our survival. There is no genius creator in the world. But only God !<br>我們是一個耐心且謙遜的組織。<br>不像其他的......您對我們的寶貴意見對我們的生存<br>至關重要。 世界上沒有天才的創作者。 但只有上帝 !</p>
-                    <a href="https://byronlok.com/movie.html" target="_blank">Know More About US...</a>
-                </div>
-                <div class="card">
-                    <div class="card-image pic2"></div>
-                    <h1 style="font-family:'Centaur';font-weight: lighter;letter-spacing: 2px;" ><span style="font-family:BLlogo ;color: rgb(19, 171, 19);">b</span >&#160;Byron & Co.</h1>
-                    <p style="font-family:'Centaur';font-weight: lighter;font-size:20px;"> Byron & Co. is committed to providing a high-quality professional Handyman Service, to the total satisfaction of its customers. Our aim is to develop a quality finish within budget and time scale, to the total satisfaction of all parties. The company will continue to train and develop employees to maximise their potential and their value to the company, producing multi-skilled and flexible employees.
-                        Through mutual respect and confident teamwork ability our aim is to exceed our customer’s expectations.                   </p>
-                        <br>
-                        <a href="https://byronlok.com" target="_blank">Know More About US...</a>
-                </div>
-                <div class="card">
-                    <div class="card-image pic3"></div>
-                    <h1 style="font-family:Albertus;letter-spacing: 3px;font-weight: lighter;">Byr<span style="font-family: BLlogo;color:rgb(19, 171, 19);font-size: 25px;">b</span>n Health</h1>
-                    <marquee behavior="" direction="up" scrollamount="3" OnMouseOver="this.stop()"
-                    OnMouseOut="this.start()"><p style="font-size: 25px;font-family:Albertus;">Byron Health informs you that due to the unstable economic environment, we temporarily closed. Soon, we hope to see you! <Br> LOVE YOU
-                        <br> <br >ALL OTHER BUSINESS,<br> AS USUAL.   </p>
-                    </marquee>
-                </div>    
-                        
-                    
-            </div>
-            <div class="footer"> 
-                <p>Power by Byron <span Style="font-family:BLlogo; color:green">b</span> Screen &copy;2022</p>
-            </div>        
-     
-   
-</body>
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+    <script language="JavaScript">
+      var message = "NO RIGHT CLICK AVAILABLE .";
+      ///////////////////////////////////
+      function clickIE() {
+        if (document.all) {
+          alert(message);
+          return false;
+        }
+      }
+      function clickNS(e) {
+        if (document.layers || (document.getElementById && !document.all)) {
+          if (e.which == 2 || e.which == 3) {
+            alert(message);
+            return false;
+          }
+        }
+      }
+      if (document.layers) {
+        document.captureEvents(Event.MOUSEDOWN);
+        document.onmousedown = clickNS;
+      } else {
+        document.onmouseup = clickNS;
+        document.oncontextmenu = clickIE;
+      }
+
+      document.oncontextmenu = new Function("return false");
+      // -->
+    </script>
+
+    <script>
+      document.onkeydown = function (e) {
+        return false;
+      };
+    </script>
+    <div class="header">
+      <p
+        style="
+          text-align: center;
+          font-size: 5vw;
+          margin: 30px;
+          color: green;
+          font-family: 'Big';
+        "
+      >
+        The Byron Orginzaition
+      </p>
+      <p
+        style="
+          text-align: center;
+          font-size: 3vw;
+          color: green;
+          font-family: 'centaur';
+          font-weight: lighter;
+        "
+      >
+        &#9886; Moving forward, we continue to explore. &#9887;
+      </p>
+    </div>
+
+    <div class="container">
+      <div class="card">
+        <div class="card-image pic1"></div>
+        <h1
+          style="
+            font-family: Devanagari;
+            font-weight: lighter;
+            letter-spacing: 2px;
+          "
+        >
+          Byron
+          <span style="font-family: BLlogo; color: rgb(19, 171, 19)">b</span>
+          Screen
+        </h1>
+        <p
+          style="font-family: Devanagari; font-weight: lighter; font-size: 20px"
+        >
+          We're patient and humble-driven.<br />Not like others......;
+          &#160;&#160;Your valuable ideas for us are critical to our
+          survival. There is no genius creator in the world. But only God !<br />我們是一個耐心且謙遜的組織。<br />不像其他的......您對我們的寶貴意見對我們的生存<br />至關重要。
+          世界上沒有天才的創作者。 但只有上帝 !
+        </p>
+        <a href="movie.html" target="_blank">Know More About US...</a>
+      </div>
+      <div class="card">
+        <div class="card-image pic2"></div>
+        <h1
+          style="
+            font-family: 'Centaur';
+            font-weight: lighter;
+            letter-spacing: 2px;
+          "
+        >
+          <span style="font-family: BLlogo; color: rgb(19, 171, 19)">b</span
+          >&#160;Byron & Co.
+        </h1>
+        <p
+          style="font-family: 'Centaur'; font-weight: lighter; font-size: 20px"
+        >
+          Byron & Co. is committed to providing a high-quality professional
+          Handyman Service, to the total satisfaction of its customers. Our aim
+          is to develop a quality finish within budget and time scale, to the
+          total satisfaction of all parties. The company will continue to train
+          and develop employees to maximise their potential and their value to
+          the company, producing multi-skilled and flexible employees. Through
+          mutual respect and confident teamwork ability our aim is to exceed our
+          customer’s expectations.
+        </p>
+        <br />
+        <a href="https://byronlok.com" target="_blank">Know More About US...</a>
+      </div>
+      <div class="card">
+        <div class="card-image pic3"></div>
+        <h1
+          style="
+            font-family: Albertus;
+            letter-spacing: 3px;
+            font-weight: lighter;
+          "
+        >
+          Byr<span
+            style="
+              font-family: BLlogo;
+              color: rgb(19, 171, 19);
+              font-size: 25px;
+            "
+            >b</span
+          >n Health
+        </h1>
+        <marquee
+          behavior=""
+          direction="up"
+          scrollamount="3"
+          OnMouseOver="this.stop()"
+          OnMouseOut="this.start()"
+          ><p style="font-size: 25px; font-family: Albertus">
+            Byron Health informs you that due to the unstable economic
+            environment, we temporarily closed. Soon, we hope to see you! <br />
+            LOVE YOU <br />
+            <br />ALL OTHER BUSINESS,<br />
+            AS USUAL.
+          </p>
+        </marquee>
+      </div>
+    </div>
+    <div class="footer">
+      <p>
+        Power by Byron
+        <span Style="font-family:BLlogo; color:green">b</span> Screen &copy;2022
+      </p>
+    </div>
+  </body>
 </html>
-
