@@ -44,11 +44,20 @@
     .container {
       font-size: 6vw;
       font-family: "Devanagari";
-      margin: 300px 100px 200px 200px;
+      margin: 100px 100px 500px;
       color: green;
       text-shadow: 1px 1px 5px red;
       text-align: center;
       font-weight: lighter;
+    }
+    .container marquee {
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: auto;
+      margin-top: 100px;
+      padding: 200px auto;
+      text-align: center;
+      height: 300px;
     }
 
     audio {
@@ -56,9 +65,12 @@
     }
   </style>
   <body>
-    <marquee behavior="" direction="up" scroolamount="">
-      <div class="container">Under Construction Coming Soon</div>
-    </marquee>
+    <div class="container">
+      <marquee behavior="" direction="up" scroolamount="">
+        Improvement is being processed.<br /><br />
+        We will be back soon.
+      </marquee>
+    </div>
     <audio controls autoplay loop>
       <source src="BSpic/LionRock.mp3" type="audio/ogg" />
       <source src="BSpic/LionRock.mp3" type="audio/mpeg" />
