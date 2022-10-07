@@ -57,19 +57,52 @@
       margin-top: 100px;
       padding: 200px auto;
       text-align: center;
-      height: 300px;
+      height: 200px;
     }
 
     audio {
       display: none;
     }
+    header {
+      text-align: center;
+      padding: 20px;
+      font-family: "Devanagari";
+      color: green;
+      letter-spacing: 3px;
+      font-weight: lighter;
+      font-size: 5vw;
+      text-shadow: 1px 1px 1px red;
+    }
+    blink {
+      animation: 2s linear infinite condemned_blink_effect;
+    }
+
+    @keyframes condemned_blink_effect {
+      0% {
+        visibility: hidden;
+      }
+      30% {
+        visibility: hidden;
+      }
+      100% {
+        visibility: visible;
+      }
+    }
   </style>
   <body>
+    <header>
+      <blink>
+           Byron<span style="font-family: BLlogo; font-size: 3.5vw">b</span>Screen
+      </blink>
+    </header>
+
     <div class="container">
-      <marquee behavior="" direction="up" scroolamount="">
+      
+      <marquee behavior="" direction="up" scroolamount="2">
         Improvement is being processed.<br /><br />
         We will be back soon.
       </marquee>
+      </div>
     </div>
     <audio controls autoplay loop>
       <source src="BSpic/LionRock.mp3" type="audio/ogg" />
