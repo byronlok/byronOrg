@@ -78,13 +78,19 @@
     }
     header {
       text-align: center;
-      padding: 20px;
+      padding: 5px;
       font-family: "Devanagari";
       color: green;
       letter-spacing: 3px;
       font-weight: lighter;
       font-size: 5vw;
       text-shadow: 1px 1px 1px red;
+      position: relative;
+      
+    }
+    header img{
+      border-radius: 0px 30px;
+      box-shadow: 10px 10px 10px green;
     }
     blink {
       animation: 2s linear infinite condemned_blink_effect;
@@ -94,20 +100,30 @@
       0% {
         visibility: hidden;
       }
-      30% {
+      50% {
         visibility: hidden;
       }
       100% {
         visibility: visible;
       }
     }
+    /* img{
+      position:relative;
+      padding:40px ;
+      margin-left: 20%;
+    
+      
+
+
+    } */
   </style>
   <body>
     <header>
-      <blink>
-           Byron<span style="font-family: BLlogo; font-size: 3.5vw">b</span>Screen
-      </blink>
-    </header>
+      
+           <!-- Byron<span style="font-family: BLlogo; font-size: 3.5vw">b</span>Screen -->
+    <img src="BSpic/BSheader.png" alt="" width="90%">
+          </header> 
+   
 
     <div class="container">
       
