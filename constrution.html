@@ -91,7 +91,9 @@
     header img{
       border-radius: 0px 30px;
       box-shadow: 10px 10px 10px green;
+     
     }
+    
     blink {
       animation: 2s linear infinite condemned_blink_effect;
     }
@@ -107,6 +109,10 @@
         visibility: visible;
       }
     }
+    #contact a{
+    font-size: 2vw;
+    
+    }
     /* img{
       position:relative;
       padding:40px ;
@@ -118,6 +124,41 @@
     } */
   </style>
   <body>
+    
+    <script language="JavaScript">
+      var message = "NO RIGHT CLICK AVAILABLE .";
+      ///////////////////////////////////
+      function clickIE() {
+        if (document.all) {
+          alert(message);
+          return false;
+        }
+      }
+      function clickNS(e) {
+        if (document.layers || (document.getElementById && !document.all)) {
+          if (e.which == 2 || e.which == 3) {
+            alert(message);
+            return false;
+          }
+        }
+      }
+      if (document.layers) {
+        document.captureEvents(Event.MOUSEDOWN);
+        document.onmousedown = clickNS;
+      } else {
+        document.onmouseup = clickNS;
+        document.oncontextmenu = clickIE;
+      }
+
+      document.oncontextmenu = new Function("return false");
+      // -->
+    </script>
+
+    <script>
+      document.onkeydown = function (e) {
+        return false;
+      };
+    </script>
     <header>
       
            <!-- Byron<span style="font-family: BLlogo; font-size: 3.5vw">b</span>Screen -->
@@ -131,8 +172,13 @@
         Improvement is being processed.<br /><br />
         We will be back soon.
       </marquee>
+      <button id="contact">
+        <a href="contactform.html">talk to Us</a>
+      </button>
       </div>
+     
     </div>
+    
     <audio controls autoplay loop>
       <source src="BSpic/LionRock.ogg" type="audio/ogg" />
       <source src="BSpic/LionRock.mp3" type="audio/mpeg" />
