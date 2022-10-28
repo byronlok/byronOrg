@@ -40,6 +40,7 @@
       flex-direction: column;
       width: 24rem;
       gap: 1rem;
+      box-shadow: 10px 10px 50px gray;
     }
 
     input,
@@ -67,6 +68,11 @@
       width: 80%;
       align-items: center;
       margin: 10px;
+      box-shadow: 10px 10px 20px gray;
+    }
+    table img:hover {
+      transform: scale(1.1);
+      transition: all 1s ease;
     }
     table td {
       width: 20%;
@@ -105,9 +111,19 @@
 
     <table width="80%">
       <tr>
-        <td align="center"><img src="BSpic/BS2.png" alt="" /></td>
-        <td align="center"><img src="BSpic/byron&co.png" alt="" /></td>
-        <td align="center"><img src="BSpic/byronhealthS.png" alt="" /></td>
+        <td align="center">
+          <a href="index.html"
+            ><img src="BSpic/BS2.png" alt="byron screen"
+          /></a>
+        </td>
+        <td align="center">
+          <a href="https://byronlok.com" target="_blank"
+            ><img src="BSpic/byron&co.png" alt="Byron & Co"
+          /></a>
+        </td>
+        <td align="center">
+          <img src="BSpic/byronhealthS.png" alt="Byron Health" />
+        </td>
       </tr>
     </table>
     <div class="container">
@@ -125,8 +141,10 @@
           required
         />
         <select name="Subject">
-          <option>General / 一 般</option>
-          <option>Important / 重 要</option>
+          <option>I would like to talk with &#8595;&#8595;&#8595;</option>
+          <option>To: Byron Lok Organization</option>
+          <option>To: Byron Screen</option>
+          <option>To: Byron & Co.</option>
           <option>Suggest / 意 見</option>
         </select>
         <textarea name="Message" placeholder="Message" required></textarea>
